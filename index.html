@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Quick Draw app</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    </head>
+    <body>
+       <center> 
+            <div id="myModal" class="modal fade">
+            <div class="modal-content">
+                <div class="modal-header"></div>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"> Sketches</h4>
+                
+            </div>
+            <div class="modal-body">
+                <img src="https://shravantihable.github.io/Web_Designing/sketch1.png">
+                <img src="https://shravantihable.github.io/Web_Designing/sketch2.png">
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="white"></div><h1>QUICK DRAW <button id="show_sketch" class="btn btn-info" data-toggle="modal" data-target="#myModal"> Show Sketch</button></h1></div>
+   
+<p id="label">Your Sketch :</p></span>
+<p id="confidence">Confidence :</p>
+<p id="drawnsketch" class="brn btn-danger">Sketch To be Drawn</p>
+<span><h3>Score:</h3> <h3>Timer:</h3></span>
+<button class="btn btn-danger btn-lg" onclick="clearCanvas()">Clear Canvas</button>
+</center>
+<script src="main.js"></script>
+
+
+            
+            
+        </div>
+    </body>
+</html>
